@@ -4,7 +4,7 @@ summa=4
 
 myFunction()
 {
-         echo "your test is success"
+         echo "your test is the best"
          echo "Num1= $1"
          echo "Num2= $2"
          summa=$(($1+$2))
