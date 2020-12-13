@@ -1,0 +1,16 @@
+#!/bin/bash
+
+summa=4
+
+myFunction()
+{
+         echo "your test is success"
+         echo "Num1= $1"
+         echo "Num2= $2"
+         summa=$(($1+$2))
+         
+}
+
+
+myFunction 2 2
+echo "Summa = $summa"
