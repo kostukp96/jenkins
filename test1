@@ -1,10 +1,10 @@
 #!/bin/bash
 
-summa=4
+summa=6
 
 myFunction()
 {
-         echo "your test is the best"
+         echo "your test is the best2222222"
          echo "Num1= $1"
          echo "Num2= $2"
          summa=$(($1+$2))
@@ -12,5 +12,5 @@ myFunction()
 }
 
 
-myFunction 2 2
+myFunction 3 3
 echo "Summa = $summa"
